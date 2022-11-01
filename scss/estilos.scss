@@ -1,0 +1,15 @@
+@import "_forms";
+@import "_cards";
+@import "_carousel";
+@import "_mediaquery";
+
+body {
+    background-image: linear-gradient(to right, #12023a, #270041, #32003e, #350034, #3f0034);
+}
+
+.navbar {
+    z-index: 2;
+    .intro {
+        margin-left: 30px;
+    }
+}

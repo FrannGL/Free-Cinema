@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Peliculas y Series Gratis HD">
+        <meta name="keywords" content="Peliculas Gratis HD, Peliculas HD, Peliculas Gratis, Peliculas, Series Gratis HD, Series HD, Series Gratis, Series">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Free Cinema - Series</title>
+    </head>
+<body>
+<!----------------------------------- MENU DE NAVEGACION DESKTOP -------------------------------------->
+    <header>
+        <div class="container-fluid nav-desk">
+            <div class="row">
+                <div class="col g-0">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0" data-aos="fade-down">
+                        <div class="container-fluid">
+                            <a class="navbar-brand ms-5" href="../index.html"><img src="../images/logo white.png" alt="logo" width="120px"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link active fw-bold" aria-current="page" href="../index.html">Inicio</a><li></li>
+                                <!-- PELICULAS -->
+                                <div class="dropdown">
+                                    <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Películas
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item" href="../index.html#pelis">Más vistas</a></li>
+                                        <li><a class="dropdown-item" href="../index.html#pelisDestacadas">Mejores Calificadas</a></li>
+                                        <li><a class="dropdown-item" href="allmovies.html">Ver todas</a></li>
+                                    </ul>
+                                </div>
+                                <!-- SERIES -->
+                                <div class="dropdown">
+                                    <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Series
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item" href="../index.html#series">Más vistas</a></li>
+                                        <li><a class="dropdown-item" href="../index.html#seriesDestacadas">Mejores Calificadas</a></li>
+                                        <li><a class="dropdown-item" href="allseries.html">Ver todas</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                <button class="btn text-white me-5" type="button">
+                                    <a href="contacto.html" class="text-decoration-none text-white">Contacto</a>
+                                </button>
+                                </div>
+                                </ul>
+                                <!-- BUSCADOR -->
+                                <form class="d-flex ms-2 search" role="search">
+                                    <input class="form-control bg-transparent text-white" type="search" placeholder="Buscar Peliculas..." aria-label="Buscar">
+                                    <button class="btn btn-success ms-1" type="submit">Buscar</button>
+                                </form>
+                                <!-- LOGIN -->
+                                <button type="button" class="btn btn-outline-primary me-3 intro"><a href="login.html" class="text-white text-decoration-none">Ingresar</a></button>
+                                <button type="button" class="btn btn-primary intro2 me-5"><a href="registro.html" class="text-white text-decoration-none">Registrarse</a></button>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!----------------------------------- MENU DE NAVEGACION RESPONSIVE -------------------------------------->
+    <div class="container-fluid nav-resp">
+        <div class="row">
+            <div class="col g-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent btn-burger position-absolute top-0">
+                    <div class="container-fluid">
+                        <a class="navbar-brand logo" href="../index.html"><img src="../images/logo white.png" alt="logo" width="120px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse bg-dark bg-gradient bg-opacity-50" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-center">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active fw-bold ms-3" aria-current="page" href="../index.html">Inicio</a><li></li>
+                            <!-- PELICULAS -->
+                            <div class="dropdown">
+                                <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Películas
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="../index.html#pelis">Más vistas</a></li>
+                                    <li><a class="dropdown-item" href="../index.html#pelisDestacadas-resp">Mejores Calificadas</a></li>
+                                    <li><a class="dropdown-item" href="allmovies.html">Ver todas</a></li>
+                                </ul>
+                            </div>
+                            <!-- SERIES -->
+                            <div class="dropdown">
+                              <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Series
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item" href="../index.html#series">Más vistas</a></li>
+                                <li><a class="dropdown-item" href="../index.html#seriesDestacadas-resp">Mejores Calificadas</a></li>
+                                <li><a class="dropdown-item" href="allseries.html">Ver todas</a></li>
+                              </ul>
+                            </div>
+                            <div>
+                                <button class="btn text-white" type="button">
+                                <a href="contacto.html" class="text-decoration-none text-white text-center">Contacto</a>
+                                </button>
+                            </div>
+                            </ul>
+                            <!-- BUSCADOR -->
+                            <form class="d-flex ms-1 mb-3 search" role="search">
+                                <input class="form-control bg-transparent text-white" type="search" placeholder="Buscar Peliculas..." aria-label="Buscar">
+                                <button class="btn btn-success me-2" type="submit">Buscar</button>
+                            </form>
+                            <!-- LOGIN -->
+                            <div class="container d-flex justify-content-center">
+                                <button type="button" class="btn btn-primary mb-3 me-2 intro"><a href="login.html" class="text-white text-decoration-none">Ingresar</a></button>
+                                <button type="button" class="btn btn-primary mb-3 me-5 intro2"><a href="registro.html" class="text-white text-decoration-none">Registrarse</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+<!----------------------------------- CONTENIDO --------------------------------------->
+    <main>
+        <div class="container-fluid content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row">
+                <div class="col g-0">
+                    <div class="cards__container d-flex justify-content-center gap-4 flex-wrap">
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/28-days.jpg" class="img-fluid mt-2" alt="28-dias-paranormales">
+                            <h2 class="text-white card__title mt-3">28 Dias Paranormales</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/ahs.jpg" class="img-fluid mt-2" alt="American-horror-story">
+                            <h2 class="text-white card__title mt-3">American Horror Story</h2>
+                            <h3 class="text-white text-center"><span>11</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/atlanta.jpg" class="img-fluid mt-2" alt="atlanta">
+                            <h2 class="text-white card__title mt-3">Atlanta</h2>
+                            <h3 class="text-white text-center"><span>4</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/barbarians.jpg" class="img-fluid mt-2" alt="barbarians">
+                            <h2 class="text-white card__title mt-3">Barbaros</h2>
+                            <h3 class="text-white text-center"><span>2</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/better-call-saul.jpg" class="img-fluid mt-2" alt="better-call-saul">
+                            <h2 class="text-white card__title mt-3">Better Call Saul</h2>
+                            <h3 class="text-white text-center"><span>6</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/chernobil.jpg" class="img-fluid mt-2" alt="chernobil">
+                            <h2 class="text-white card__title mt-3">Chernobil</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/dahmer.jpg" class="img-fluid mt-2" alt="dahmer">
+                            <h2 class="text-white card__title mt-3">Dahmer</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/elite.jpg" class="img-fluid mt-2" alt="elite">
+                            <h2 class="text-white card__title mt-3">Elite</h2>
+                            <h3 class="text-white text-center"><span>5</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/fear-walkingdead.jpg" class="img-fluid mt-2" alt="fear-walkingdead">
+                            <h2 class="text-white card__title mt-3">Fear The Walking Dead</h2>
+                            <h3 class="text-white text-center"><span>7</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/house-of-the-dragon.jpg" class="img-fluid mt-2" alt="house-of-the-dragon">
+                            <h2 class="text-white card__title mt-3">House Of The Dragon</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/la-mujer-del-diablo.jpg" class="img-fluid mt-2" alt="la-mujer-del-diablo">
+                            <h2 class="text-white card__title mt-3">La Mujer del Diablo</h2>
+                            <h3 class="text-white text-center"><span>2</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/lakers.jpg" class="img-fluid mt-2" alt="lakers">
+                            <h2 class="text-white card__title mt-3">Lakers</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/loki.jpg" class="img-fluid mt-2" alt="loki">
+                            <h2 class="text-white card__title mt-3">Loki</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/lotr.jpg" class="img-fluid mt-2" alt="lotr">
+                            <h2 class="text-white card__title mt-3">El Señor de los Anillos: Los Anillos de Poder</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/moon-knight.jpg" class="img-fluid mt-2" alt="moon-knight">
+                            <h2 class="text-white card__title mt-3">Moon Knight</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/ozark.jpg" class="img-fluid mt-2" alt="ozark">
+                            <h2 class="text-white card__title mt-3">Ozark</h2>
+                            <h3 class="text-white text-center"><span>4</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/peaky-blinder.jpg" class="img-fluid mt-2" alt="peaky-blinder">
+                            <h2 class="text-white card__title mt-3">Peaky Blinders</h2>
+                            <h3 class="text-white text-center"><span>6</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/resident-evil.jpg" class="img-fluid mt-2" alt="resident-evil">
+                            <h2 class="text-white card__title mt-3">Resident Evil</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/squid-game.jpg" class="img-fluid mt-2" alt="squid-game">
+                            <h2 class="text-white card__title mt-3">El Juego del Calamar</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/star-wars-andors.jpg" class="img-fluid mt-2" alt="star-wars-andors">
+                            <h2 class="text-white card__title mt-3">Star Wars: Andors</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/stranger-things.jpg" class="img-fluid mt-2" alt="stranger-things">
+                            <h2 class="text-white card__title mt-3">Stranger Things</h2>
+                            <h3 class="text-white text-center"><span>4</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/the-boys.jpg" class="img-fluid mt-2" alt="the-boys">
+                            <h2 class="text-white card__title mt-3">The Boys</h2>
+                            <h3 class="text-white text-center"><span>3</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/the-expanse.jpg" class="img-fluid mt-2" alt="the-expanse">
+                            <h2 class="text-white card__title mt-3">The Expanse</h2>
+                            <h3 class="text-white text-center"><span>6</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/the-mandaloria.jpg" class="img-fluid mt-2" alt="the-mandalorian">
+                            <h2 class="text-white card__title mt-3">The Mandalorian</h2>
+                            <h3 class="text-white text-center"><span>2</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/the-purge.jpg" class="img-fluid mt-2" alt="the-purge">
+                            <h2 class="text-white card__title mt-3">La Purga</h2>
+                            <h3 class="text-white text-center"><span>2</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/the-serpent-queen.jpg" class="img-fluid mt-2" alt="the-serpent-queen">
+                            <h2 class="text-white card__title mt-3">La Reina Serpiente</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/umbrella-academy.jpg" class="img-fluid mt-2" alt="umbrella-academy">
+                            <h2 class="text-white card__title mt-3">The Umbrella Academy</h2>
+                            <h3 class="text-white text-center"><span>3</span> Temporadas</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/valhalla.jpg" class="img-fluid mt-2" alt="Vikings">
+                            <h2 class="text-white card__title mt-3">Vikings: Valhalla</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/wanda-vision.jpg" class="img-fluid mt-2" alt="wanda-vision">
+                            <h2 class="text-white card__title mt-3">Wanda Vision</h2>
+                            <h3 class="text-white text-center"><span>1</span> Temporada</h3>
+                        </div>
+                        <div class="cards__items text-center ms-2">
+                            <img src="../images/series/westworld.jpg" class="img-fluid mt-2" alt="westworld">
+                            <h2 class="text-white card__title mt-3">Westworld</h2>
+                            <h3 class="text-white text-center"><span>4</span> Temporadas</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!------------------------------------------- FOOTER ---------------------------------------->
+    <footer class="bg-transparent text-center text-white">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <a class="btn text-white btn-floating m-1"style="background-color: #3b5998;" href="https://www.facebook.com/franco.galluccio/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn text-white btn-floating m-1"style="background-color: #dd4b39;"href="https://www.youtube.com/channel/UCkLyczdxyR0xXDbt5EpqJBQ" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+                <a class="btn text-white btn-floating m-1"style="background-color: #ac2bac;"href="https://www.instagram.com/fraaaangl/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn text-white btn-floating m-1"style="background-color: #0082ca;"href="https://www.linkedin.com/in/franco-ivan-galluccio-553b1224a/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/FrannGL" target="_blank" role="button"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2022 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">www.freecinema.com.ar</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://kit.fontawesome.com/5298016dfa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

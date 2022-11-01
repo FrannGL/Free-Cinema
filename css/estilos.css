@@ -1,0 +1,282 @@
+.form__container {
+  height: 450px; }
+  .form__container .form__item {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .form__container .form__item form {
+      margin-left: 25px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+    .form__container .form__item h1 {
+      text-align: center;
+      margin: 50px 50px; }
+    .form__container .form__item .input {
+      margin-left: 15px;
+      width: 85%;
+      outline: none;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #000; }
+    .form__container .form__item .label {
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 90%;
+      outline: none;
+      background: none;
+      border: none; }
+    .form__container .form__item button {
+      width: 82%;
+      margin: 20px;
+      padding: 15px; }
+  .form__container .form__recovery {
+    text-align: center; }
+    .form__container .form__recovery p {
+      margin-top: 30px;
+      font-size: 12px; }
+      .form__container .form__recovery p a {
+        text-decoration: none; }
+    .form__container .form__recovery .pass {
+      position: relative;
+      bottom: 30px; }
+
+.cards__container {
+  width: 100%;
+  height: 100%; }
+
+.cards__items {
+  width: 200px; }
+  .cards__items img {
+    position: relative;
+    z-index: 2;
+    filter: brightness(70%);
+    transition: all 0.3s ease-out; }
+  .cards__items img:hover {
+    transform: scale(1.2);
+    filter: brightness(100%);
+    border: 2px solid #b300ff;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 28px;
+    transition: all 0.3s ease-out; }
+  .cards__items h2 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
+  .cards__items h3 {
+    font-size: 15px; }
+    .cards__items h3 span {
+      font-size: 18px;
+      font-weight: bold;
+      color: burlywood; }
+
+.carousel-back {
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  background: black; }
+
+.carousel__title {
+  font-family: "Oswald";
+  letter-spacing: 5px; }
+
+.carousel__container {
+  width: 70vw; }
+
+.carousel__item {
+  width: 250px;
+  height: 400px;
+  padding: 25px; }
+  .carousel__item .card__title {
+    font-size: 20px;
+    font-family: "Oswald"; }
+  .carousel__item .card__season {
+    font-size: 15px; }
+    .carousel__item .card__season span {
+      font-size: 18px;
+      font-weight: bold;
+      color: burlywood; }
+
+.destacados {
+  height: 500px; }
+  .destacados h2 {
+    font-size: 25px;
+    font-family: "Oswald"; }
+  .destacados .columna2 h3 {
+    font-size: 15px; }
+  .destacados .columna2 span {
+    font-size: 18px;
+    font-weight: bold; }
+
+@media screen and (max-width: 400px) {
+  .nav-desk {
+    display: none; }
+  .nav-resp .btn-burger {
+    margin-top: -15px;
+    width: 100vw; }
+  .nav-resp .logo {
+    position: relative;
+    right: -15px;
+    top: 10px; }
+  main {
+    overflow: hidden; }
+  footer {
+    margin-top: 75px; }
+  .series-desk {
+    display: none; }
+  .series-destacadas-desk {
+    display: none; }
+  .carousel__container {
+    margin: 0 auto; }
+  .carousel__title {
+    font-size: 23px; }
+  .content {
+    margin-top: 125px; }
+  .pelis-destacadas-desk {
+    display: none; }
+  .pelis-desk {
+    display: none; }
+  .title-pelis {
+    font-size: 17px; }
+  .form__container {
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 50px; }
+  .form__item {
+    background-color: #fff;
+    border-radius: 5%; }
+    .form__item form {
+      width: 90vw; } }
+
+@media screen and (min-width: 401px) and (max-width: 599px) {
+  .nav-desk {
+    display: none; }
+  .nav-resp .btn-burger {
+    margin-top: -15px;
+    width: 100vw; }
+  .nav-resp .logo {
+    position: relative;
+    right: -15px;
+    top: 10px; }
+  main {
+    overflow: hidden; }
+  .series-desk {
+    display: none; }
+  .series-destacadas-desk {
+    display: none; }
+  .carousel__container {
+    margin: 0 auto;
+    width: 80vw; }
+  .carousel__item {
+    margin: 0 auto; }
+  .carousel__title {
+    font-size: 23px; }
+  .btn-all {
+    margin-top: -40px; }
+  .content {
+    margin-top: 125px; }
+  .pelis-destacadas-desk {
+    display: none; }
+  .pelis-desk {
+    display: none; }
+  .form__container {
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 50px; }
+  .form__item {
+    background-color: #fff;
+    border-radius: 5%; }
+    .form__item form {
+      width: 80vw; } }
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  .nav-desk {
+    display: none; }
+  .nav-resp .btn-burger {
+    margin-top: -15px;
+    width: 100vw; }
+  .nav-resp .logo {
+    position: relative;
+    right: -15px;
+    top: 10px; }
+  main {
+    overflow: hidden; }
+  .series-desk {
+    display: none; }
+  .series-destacadas-desk {
+    display: none; }
+  .carousel__container {
+    margin: 0 auto;
+    width: 95vw; }
+  .carousel__item {
+    margin: 0 auto; }
+  .carousel__title {
+    font-size: 23px; }
+  .btn-all {
+    margin-top: -40px; }
+  .columna1 img {
+    margin-left: 120px; }
+  .content {
+    margin-top: 125px; }
+  .pelis-destacadas-desk {
+    display: none; }
+  .pelis-desk {
+    display: none; }
+  .form__container {
+    width: 80vw;
+    height: 100%;
+    margin-bottom: 50px; }
+  .form__item {
+    background-color: #fff;
+    border-radius: 5%; }
+    .form__item form {
+      width: 70vw; } }
+
+@media screen and (min-width: 991px) {
+  .nav-resp {
+    display: none; }
+  header .intro {
+    position: relative;
+    left: 15px; }
+  header .intro2 {
+    position: relative;
+    left: 15px; }
+  header .btn-burger {
+    position: relative;
+    left: 150px; }
+  .btn-pelis {
+    position: relative;
+    left: 90px; }
+    .btn-pelis a {
+      padding: 10px 2px; }
+  .content {
+    margin-top: 125px; }
+  .btn-pelis {
+    position: relative;
+    right: 100px; }
+  .series-desk {
+    display: none; }
+  .series-destacadas-resp {
+    display: none; }
+  .pelis-desk {
+    display: none; }
+  .pelis-destacadas-resp {
+    display: none; }
+  .form__container {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 50px; }
+  .form__item {
+    background-color: #fff;
+    border-radius: 7%; }
+    .form__item form {
+      width: 35vw; } }
+
+body {
+  background-image: linear-gradient(to right, #12023a, #270041, #32003e, #350034, #3f0034); }
+
+.navbar {
+  z-index: 2; }
+  .navbar .intro {
+    margin-left: 30px; }

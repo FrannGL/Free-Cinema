@@ -1,0 +1,49 @@
+.carousel-back {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+}
+
+.carousel__title {
+    font-family: "Oswald";
+    letter-spacing: 5px;
+}
+
+.carousel__container {
+    width: 70vw;
+}
+
+.carousel__item {
+    width: 250px;
+    height: 400px;
+    padding: 25px;
+    .card__title {
+        font-size: 20px;
+        font-family: "Oswald";
+    }
+    .card__season {
+        font-size: 15px;
+        span {
+            font-size: 18px;
+            font-weight: bold;
+            color: burlywood;
+        }
+    }
+}
+
+.destacados {
+    height: 500px;
+    h2 {
+        font-size: 25px;
+        font-family: "Oswald";
+    }
+    .columna2 {
+        h3 {
+            font-size: 15px;
+        }
+        span {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}

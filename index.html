@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Peliculas y Series Gratis HD">
+    <meta name="keywords" content="Peliculas Gratis HD, Peliculas HD, Peliculas Gratis, Peliculas, Series Gratis HD, Series HD, Series Gratis, Series">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Free Cinema</title>
+</head>
+<body>
+<!----------------------------------- MENU DE NAVEGACION DESKTOP -------------------------------------->
+  <header>
+    <div class="container-fluid nav-desk">
+      <div class="row">
+        <div class="col g-0">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0" data-aos="fade-down">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5" href="index.html"><img src="images/logo white.png" alt="logo" width="120px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active fw-bold" aria-current="page" href="index.html">Inicio</a>
+                    <li>
+                    </li>
+                <!--PELICULAS -->
+                <div class="dropdown">
+                  <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Películas
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#pelis">Más vistas</a></li>
+                    <li><a class="dropdown-item" href="#pelisDestacadas">Mejores Calificadas</a></li>
+                    <li><a class="dropdown-item" href="pages/allmovies.html">Ver todas</a></li>
+                  </ul>
+                </div>
+                <!-- SERIES -->
+                <div class="dropdown">
+                  <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Series
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#series">Más vistas</a></li>
+                    <li><a class="dropdown-item" href="#seriesDestacadas">Mejores Calificadas</a></li>
+                    <li><a class="dropdown-item" href="pages/allseries.html">Ver todas</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <button class="btn text-white me-5" type="button">
+                    <a href="pages/contacto.html" class="text-decoration-none text-white">Contacto</a>
+                  </button>
+                </div>
+                </ul>
+                <!-- BUSCADOR -->
+                <form class="d-flex ms-2 search" role="search">
+                  <input class="form-control bg-transparent text-white" type="search" placeholder="Buscar Peliculas..." aria-label="Buscar">
+                  <button class="btn btn-success me-5" type="submit">Buscar</button>
+                </form>
+                <!-- LOGIN -->
+                  <button type="button" class="btn btn-outline-primary ms-5"><a href="pages/login.html" class="text-white text-decoration-none">Ingresar</a></button>
+                  <button type="button" class="btn btn-primary ms-1 me-3"><a href="pages/registro.html" class="text-white text-decoration-none">Registrarse</a></button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+<!----------------------------------- MENU DE NAVEGACION RESPONSIVE -------------------------------------->
+  <div class="container-fluid nav-resp">
+    <div class="row">
+      <div class="col g-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent btn-burger position-absolute top-0">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html"><img src="images/logo white.png" alt="logo" width="120px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-dark bg-gradient bg-opacity-50" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-center">
+                <li class="nav-item dropdown">
+                <a class="nav-link active fw-bold ms-3" aria-current="page" href="#">Inicio</a><li></li>
+              <!--  PELICULAS -->
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Películas
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item" href="#pelis">Más vistas</a></li>
+                  <li li><a class="dropdown-item" href="#pelisDestacadas-resp">Mejores Calificadas</a></li>
+                  <li><a class="dropdown-item" href="pages/allmovies.html">Ver todas</a></li>
+                </ul>
+              </div>
+              <!-- SERIES -->
+              <div class="dropdown">
+                  <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Series
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                    <li><a class="dropdown-item" href="#series">Más vistas</a></li>
+                    <li><a class="dropdown-item" href="#seriesDestacadas-resp">Mejores Calificadas</a></li>
+                    <li><a class="dropdown-item" href="pages/allseries.html">Ver todas</a></li>
+                  </ul>
+              </div>
+              <div>
+                <button class="btn text-white" type="button">
+                  <a href="pages/contacto.html" class="text-decoration-none text-white text-center">Contacto</a>
+                </button>
+              </div>
+              </ul>
+              <!-- BUSCADOR -->
+              <form class="d-flex ms-1 mb-3 search" role="search">
+                <input class="form-control bg-transparent text-white" type="search" placeholder="Buscar Peliculas..." aria-label="Buscar">
+                <button class="btn btn-success me-2" type="submit">Buscar</button>
+              </form>
+              <!-- LOGIN -->
+              <div class="container d-flex justify-content-center">
+                <button type="button" class="btn btn-primary mb-3 me-2 intro"><a href="pages/login.html" class="text-white text-decoration-none">Ingresar</a></button>
+                <button type="button" class="btn btn-primary mb-3 me-5 intro2"><a href="pages/registro.html" class="text-white text-decoration-none">Registrarse</a></button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+<!----------------------------------- CARROUSEL BACKGROUND --------------------------------->
+  <main>
+    <div class="container-fluid background">
+      <div class="row">
+        <div class="col g-0">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-back position-relative top-0" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/background/background_one.jpg" class="d-block w-100" alt="house-of-the-dragon">
+              </div>
+              <div class="carousel-item">
+                <img src="images/background/background_two.jpg" class="d-block w-100" alt="avatar-2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/background/background_three.jpg" class="d-block w-100" alt="jurassic-world">
+              </div>
+              <div class="carousel-item">
+                <img src="images/background/background_four.jpg" class="d-block w-100" alt="avatar-2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!---------------------------------------- SERIES DESKTOP --------------------------------------->
+    <div class="container-fluid" id="series" data-aos="fade-down" data-aos-duration="800">
+      <div class="row">
+        <div class="col-9 series-desk">
+          <div class="row">
+            <div class="col-9">
+              <h1 class="carousel__title text-white mt-5 ms-5">ÚLTIMAS SERIES</h1>
+            </div>
+            <div class="col-3 mt-5 d-flex justify-content-end">
+              <button type="button" class="btn btn-primary text-white me-4"><a href="pages/allseries.html" class="text-decoration-none text-white">Ver Todas</a></button>
+            </div>
+          </div>
+          <div class="carousel__container ms-3 mt-3">
+            <div class="owl-carousel owl-theme">
+              <div class="carousel__item"><img src="images/series/house-of-the-dragon.jpg" alt="houseothedragon">
+                <h2 class="text-white text-center mt-4 card__title">House Of The Dragon</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/ahs.jpg" alt="ahs">
+                <h2 class="text-white text-center mt-4 card__title">American Horror Story</h2>
+                <h3 class="text-white text-center card__season"><span>11</span> Temporadas</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/barbarians.jpg" alt="barbarians">
+                <h2 class="text-white text-center mt-4 card__title">Barbaros</h2>
+                <h3 class="text-white text-center card__season"><span>2</span> Temporadas</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/lotr.jpg" alt="lotr">
+                <h2 class="text-white text-center mt-4 card__title">El Señor de los Anillos: Los anillos de Poder</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/28-days.jpg" alt="28days">
+                <h2 class="text-white text-center mt-4 card__title">28 Días Paranormales</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/dahmer.jpg" alt="dahmer">
+                <h2 class="text-white text-center mt-4 card__title">Dahmer</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/valhalla.jpg" alt="valhalla">
+                <h2 class="text-white text-center mt-4 card__title">Vikings: Valhalla</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/westworld.jpg" alt="westworld">
+                <h2 class="text-white text-center mt-4 card__title">Westworld</h2>
+                <h3 class="text-white text-center card__season"><span>4</span> Temporadas</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/the-expanse.jpg" alt="expanse">
+                <h2 class="text-white text-center mt-4 card__title">The Expanse</h2>
+                <h3 class="text-white text-center card__season"><span>6</span> Temporadas</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/la-mujer-del-diablo.jpg" alt="mujerdeldiablo">
+                <h2 class="text-white text-center mt-4 card__title">La Mujer del Diablo</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/the-serpent-queen.jpg" alt="serpentqueen">
+                <h2 class="text-white text-center mt-4 card__title">The Serpent Queen</h2>
+                <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+              </div>
+              <div class="carousel__item"><img src="images/series/atlanta.jpg" alt="atlanta">
+                <h2 class="text-white text-center mt-4 card__title">Atlanta</h2>
+                <h3 class="text-white text-center card__season"><span>4</span> Temporadas</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+<!---------------------------------------- SERIES RESPONSIVE --------------------------------------->
+        <div class="container-fluid" id="series">
+          <div class="row">
+            <div class="col series-resp">
+              <div class="row">
+                <div class="col-8">
+                  <h1 class="carousel__title text-white ms-2 mt-5 d-flex justify-content-center">ÚLTIMAS SERIES</h1>
+                </div>
+                <div class="col-4 mt-5 btn-all d-flex justify-content-center">
+                  <button type="button" class="btn btn-primary text-white text-center"><a href="pages/allseries.html" class="text-decoration-none text-white">Ver Todas</a></button>
+                </div>
+              </div>
+              <div class="carousel__container cards__items mt-3">
+                <div class="owl-carousel owl-theme">
+                  <div class="carousel__item"><img src="images/series/house-of-the-dragon.jpg" alt="houseothedragon">
+                    <h2 class="text-white text-center mt-4 card__title">House Of The Dragon</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/ahs.jpg" alt="ahs">
+                    <h2 class="text-white text-center mt-4 card__title">American Horror Story</h2>
+                    <h3 class="text-white text-center card__season"><span>11</span> Temporadas</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/barbarians.jpg" alt="barbarians">
+                    <h2 class="text-white text-center mt-4 card__title">Barbaros</h2>
+                    <h3 class="text-white text-center card__season"><span>2</span> Temporadas</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/lotr.jpg" alt="lotr">
+                    <h2 class="text-white text-center mt-4 card__title">El Señor de los Anillos: Los anillos de Poder</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/28-days.jpg" alt="28days">
+                    <h2 class="text-white text-center mt-4 card__title">28 Días Paranormales</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/dahmer.jpg" alt="dahmer">
+                    <h2 class="text-white text-center mt-4 card__title">Dahmer</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/valhalla.jpg" alt="valhalla">
+                    <h2 class="text-white text-center mt-4 card__title">Vikings: Valhalla</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/westworld.jpg" alt="westworld">
+                    <h2 class="text-white text-center mt-4 card__title">Westworld</h2>
+                    <h3 class="text-white text-center card__season"><span>4</span> Temporadas</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/the-expanse.jpg" alt="expanse">
+                    <h2 class="text-white text-center mt-4 card__title">The Expanse</h2>
+                    <h3 class="text-white text-center card__season"><span>6</span> Temporadas</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/la-mujer-del-diablo.jpg" alt="mujerdeldiablo">
+                    <h2 class="text-white text-center mt-4 card__title">La Mujer del Diablo</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                  <div class="carousel__item"><img src="images/series/the-serpent-queen.jpg" alt="serpentqueen">
+                    <h2 class="text-white text-center mt-4 card__title">The Serpent Queen</h2>
+                    <h3 class="text-white text-center card__season"><span>1</span> Temporada</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!------------------------------ TOP SERIES DESTACADAS DESKTOP --------------------------------->
+            <div class="col-3 mt-2 series-destacadas-desk" id="seriesDestacadas">
+              <h2 class="mt-5 text-center text-white">TOP SERIES DESTACADAS</h2>
+              <div class="row mt-5">
+                <div class="col-3 columna1">
+                  <img src="images/series/house-of-the-dragon.jpg" alt="house-of-the-dragon" width="80px">
+                </div>
+                <div class="col-9 columna2"><h3 class="text-left text-white fs-4 mt-3 ms-3">
+                  <span class="text-warning">1° </span>House of the Dragon</h3>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-3 columna1">
+                  <img src="images/series/lotr.jpg" alt="lotr" width="80px">
+                </div>
+                <div class="col-9 columna2"><h3 class="text-left text-white fs-4 ms-3 mt-2">
+                  <span class="text-info">2° </span>El Señor de los Anillos: Los Anillos de Poder</h3>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-3 columna1">
+                  <img src="images/series/dahmer.jpg" alt="dahmer" width="80px">
+                </div>
+                <div class="col-9 columna2"><h3 class="text-left text-white fs-4 ms-3 mt-4">
+                  <span class="text-danger">3° </span>Dahmer</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!------------------------------ TOP SERIES DESTACADAS RESPONSIVE --------------------------------->
+    <div class="col mt-5 series-destacadas-resp" id="seriesDestacadas-resp">
+      <h2 class="mt-5 text-center text-white">TOP SERIES DESTACADAS</h2>
+      <div class="row mt-5">
+        <div class="col columna1 ms-5">
+          <img src="images/series/house-of-the-dragon.jpg" alt="house-of-the-dragon" width="100px">
+        </div>
+        <div class="col-6 columna2"><h3 class="text-left text-white mt-5">
+          <span class="text-warning">1° </span>House of the Dragon</h3>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col columna1 ms-5 mt-3">
+          <img src="images/series/lotr.jpg" alt="lotr" width="100px">
+        </div>
+        <div class="col-6 columna2"><h3 class="text-left text-white mt-4">
+          <span class="text-info">2° </span>El Señor de los Anillos: Los Anillos de Poder</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col columna1 ms-5 mt-3">
+          <img src="images/series/dahmer.jpg" alt="dahmer" width="100px">
+        </div>
+        <div class="col-6 columna2"><h3 class="text-left text-white mt-5">
+          <span class="text-danger">3° </span>Dahmer</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-------------------------------------- PELÍCULAS DESKTOP ----------------------------------------->
+  <div class="container-fluid mt-5" id="pelis" data-aos="fade-up" data-aos-duration="800">
+    <div class="row">
+      <div class="col-9 pelis-desk">
+        <div class="row">
+          <div class="col-9">
+            <h1 class="carousel__title text-white mt-5 ms-5">ÚLTIMAS PELÍCULAS</h1>
+          </div>
+          <div class="col-3 mt-5 d-flex justify-content-end">
+            <button type="button" class="btn">
+              <a href="pages/allmovies.html" class="text-decoration-none text-white">Ver Todas</a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel__container cards__items ms-3 mt-3">
+          <div class="owl-carousel owl-theme">
+            <div class="carousel__item">
+              <img src="images/movies/wakanda.jpg" alt="wakanda">
+            <h2 class="text-white text-center mt-4 card__title">Black Paanter: Wakanda Forever</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/argentina-1985.jpg" alt="argentina1985">
+            <h2 class="text-white text-center mt-4 card__title">Argentina: 1985</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/avatar-2.jpg" alt="avatar2">
+              <h2 class="text-white text-center mt-4 card__title">Avatar 2: La Forma del Agua</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/black-adam.jpg" alt="blackadam">
+              <h2 class="text-white text-center mt-4 card__title">Black Adam</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/elvis.jpg" alt="Elvis">
+              <h2 class="text-white text-center mt-4 card__title">Elvis</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/hallowen-ends.jpg" alt="hallowenends">
+              <h2 class="text-white text-center mt-4 card__title">Hallowen: Ends</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/jeffers-creppers.jpg" alt="jeeperscreepers">
+              <h2 class="text-white text-center mt-4 card__title">Jeepers Creepers: Reborn</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/jurassic-world.jpg" alt="jurassicworld">
+              <h2 class="text-white text-center mt-4 card__title">Jurassic World: Dominion</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/lightyear.jpg" alt="lightyear">
+              <h2 class="text-white text-center mt-4 card__title">Lightyear</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/sonrie.jpg" alt="sonrie">
+              <h2 class="text-white text-center mt-4 card__title">Sonríe</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/thor.jpg" alt="thor">
+              <h2 class="text-white text-center mt-4 card__title">Thor: Amor y Trueno</h2>
+            </div>
+            <div class="carousel__item">
+              <img src="images/movies/vhs.jpg" alt="vhs1999">
+              <h2 class="text-white text-center mt-4 card__title">V/H/S: 1999</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-------------------------------------- PELÍCULAS RESPONIVE ----------------------------------------->
+      <div class="container-fluid" id="pelis">
+        <div class="row">
+          <div class="col series-resp mt-5">
+            <div class="row">
+              <div class="col-8">
+                <h1 class="carousel__title title-pelis text-white ms-2 mt-2 d-flex justify-content-center">ÚLTIMAS PELICULAS</h1>
+              </div>
+              <div class="col-4 btn-all">
+                <button type="button" class="btn btn-primary text-white text-center d-flex justify-content-center btn-pelis">
+                  <a href="pages/allseries.html" class="text-decoration-none text-white">Ver Todas</a>
+                </button>
+              </div>
+            </div>
+            <div class="carousel__container cards__items mt-3">
+              <div class="owl-carousel owl-theme">
+                <div class="carousel__item">
+                  <img src="images/movies/wakanda.jpg" alt="Wakanda">
+                <h2 class="text-white text-center mt-4 card__title">Black Panther: Wakanda Forever</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/argentina-1985.jpg" alt="argentina1985">
+                <h2 class="text-white text-center mt-4 card__title">Argentina: 1985</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/avatar-2.jpg" alt="avatar2">
+                  <h2 class="text-white text-center mt-4 card__title">Avatar 2: La Forma del Agua</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/black-adam.jpg" alt="blackadam">
+                  <h2 class="text-white text-center mt-4 card__title">Black Adam</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/elvis.jpg" alt="Elvis">
+                  <h2 class="text-white text-center mt-4 card__title">Elvis</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/hallowen-ends.jpg" alt="hallowenends">
+                  <h2 class="text-white text-center mt-4 card__title">Hallowen: Ends</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/jeffers-creppers.jpg" alt="jeeperscreepers">
+                  <h2 class="text-white text-center mt-4 card__title">Jeepers Creepers: Reborn</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/jurassic-world.jpg" alt="jurassicworld">
+                  <h2 class="text-white text-center mt-4 card__title">Jurassic World: Dominion</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/lightyear.jpg" alt="lightyear">
+                  <h2 class="text-white text-center mt-4 card__title">Lightyear</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/sonrie.jpg" alt="sonrie">
+                  <h2 class="text-white text-center mt-4 card__title">Sonríe</h2>
+                </div>
+                <div class="carousel__item">
+                  <img src="images/movies/vhs.jpg" alt="vhs1999">
+                  <h2 class="text-white text-center mt-4 card__title">V/H/S: 1999</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+<!------------------------------ TOP PELICULAS DESTACADAS DESKTOP --------------------------------->
+          <div class="col-3 mt-2 pelis-destacadas-desk" id="pelisDestacadas">
+            <h2 class="mt-5 text-center text-white">TOP PELICULAS DESTACADAS</h2>
+          <div class="row mt-5">
+            <div class="col-3 columna1">
+              <img src="images/movies/avatar-2.jpg" alt="avatar-2" width="80px">
+            </div>
+            <div class="col-9 columna2"><h3 class="text-left text-white mt-3 fs-4 ms-3">
+              <span class="text-warning">1° </span>Avatar 2: La Forma del Agua</h3>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3 columna1">
+              <img src="images/movies/black-adam.jpg" alt="black-adam" width="80px">
+            </div>
+            <div class="col-9 columna2"><h3 class="text-left text-white mt-4 fs-4 ms-3">
+              <span class="text-info">2° </span>Black Adam</h3>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3 columna1">
+              <img src="images/movies/argentina-1985.jpg" alt="argentina-1985" width="80px">
+            </div>
+            <div class="col-9 columna2"><h3 class="text-left text-white mt-2 fs-4 ms-3">
+              <span class="text-danger">3° </span>Argentina: 1985</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!------------------------------ TOP PELICULAS DESTACADAS RESP --------------------------------->
+    <div class="col mt-5 pelis-destacadas-resp" id="pelisDestacadas-resp">
+      <h2 class="mt-5 text-center text-white">TOP PELICULAS DESTACADAS</h2>
+      <div class="row mt-5">
+        <div class="col columna1 ms-5">
+          <img src="images/movies/avatar-2.jpg" alt="avatar-2" width="100px">
+        </div>
+        <div class="col-6 columna2"><h3 class="text-left text-white mt-4">
+          <span class="text-warning">1° </span>Avatar 2: La Forma del Agua</h3>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col columna1 ms-5 mt-3">
+          <img src="images/movies/black-adam.jpg" alt="black-adam" width="100px">
+        </div>
+        <div class="col-6 columna2"><h3 class="text-left text-white mt-5 me-5">
+          <span class="text-info">2° </span>Black Adam</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col columna1 ms-5 mt-3">
+          <img src="images/movies/argentina-1985.jpg" alt="argentina-1985" width="100px">
+        </div>
+        <div class="col-6 columna2"><h3 class="text-left text-white mt-5 me-5">
+          <span class="text-danger">3° </span>Argentina: 1985</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+<!------------------------------------------- FOOTER ---------------------------------------->
+  <footer class="bg-transparent text-center text-white mt-5">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a class="btn text-white btn-floating m-1"style="background-color: #3b5998;" href="https://www.facebook.com/franco.galluccio/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn text-white btn-floating m-1"style="background-color: #dd4b39;"href="https://www.youtube.com/channel/UCkLyczdxyR0xXDbt5EpqJBQ" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+        <a class="btn text-white btn-floating m-1"style="background-color: #ac2bac;"href="https://www.instagram.com/fraaaangl/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+        <a class="btn text-white btn-floating m-1"style="background-color: #0082ca;"href="https://www.linkedin.com/in/franco-ivan-galluccio-553b1224a/" target="_blank" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/FrannGL" target="_blank" role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">www.freecinema.com.ar</a>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://kit.fontawesome.com/5298016dfa.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="owl-carousel/jquery.min.js"></script>
+  <script src="owl-carousel/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
