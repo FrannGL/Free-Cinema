@@ -121,8 +121,6 @@
     top: 10px; }
   main {
     overflow: hidden; }
-  footer {
-    margin-top: 75px; }
   .series-desk {
     display: none; }
   .series-destacadas-desk {
@@ -140,14 +138,27 @@
   .title-pelis {
     font-size: 17px; }
   .form__container {
-    width: 100vw;
-    height: 100%;
-    margin-bottom: 50px; }
-  .form__item {
+    width: 70%;
+    height: 80%;
+    margin-bottom: 50px;
     background-color: #fff;
-    border-radius: 5%; }
+    border-radius: 7%; }
+  .form__item {
+    border-radius: 5%;
+    width: 600px;
+    height: 100%;
+    background-color: #fff; }
     .form__item form {
-      width: 90vw; } }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .form__item form p {
+        width: 60vw;
+        margin-right: 20px; }
+      .form__item form button {
+        position: relative;
+        right: 15px; } }
 
 @media screen and (min-width: 401px) and (max-width: 599px) {
   .nav-desk {
@@ -181,14 +192,26 @@
   .pelis-desk {
     display: none; }
   .form__container {
-    width: 100vw;
+    width: 65vw;
     height: 100%;
-    margin-bottom: 50px; }
-  .form__item {
+    margin-bottom: 50px;
     background-color: #fff;
-    border-radius: 5%; }
+    border-radius: 7%; }
+  .form__item {
+    border-radius: 5%;
+    width: 600px;
+    height: 100%;
+    background-color: #fff; }
     .form__item form {
-      width: 80vw; } }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .form__item form p {
+        width: 60vw; }
+      .form__item form button {
+        position: relative;
+        right: 15px; } }
 
 @media screen and (min-width: 600px) and (max-width: 990px) {
   .nav-desk {
@@ -224,14 +247,26 @@
   .pelis-desk {
     display: none; }
   .form__container {
-    width: 80vw;
+    width: 65vw;
     height: 100%;
-    margin-bottom: 50px; }
-  .form__item {
+    margin-bottom: 50px;
     background-color: #fff;
-    border-radius: 5%; }
+    border-radius: 7%; }
+  .form__item {
+    border-radius: 5%;
+    width: 600px;
+    height: 100%;
+    background-color: #fff; }
     .form__item form {
-      width: 70vw; } }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .form__item form p {
+        width: 60vw; }
+      .form__item form button {
+        position: relative;
+        right: 15px; } }
 
 @media screen and (min-width: 991px) {
   .nav-resp {
@@ -277,6 +312,5 @@ body {
   background-image: linear-gradient(to right, #12023a, #270041, #32003e, #350034, #3f0034); }
 
 .navbar {
-  z-index: 2; }
-  .navbar .intro {
-    margin-left: 30px; }
+  z-index: 2;
+  width: 98vw; }
